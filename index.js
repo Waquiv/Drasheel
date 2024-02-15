@@ -11,7 +11,7 @@ function submitBtn() {
 }
 
 function conv(num) {
-    if(num<9){
+    if(num<10){
         console.log('h');
         return ('0'+num);
     

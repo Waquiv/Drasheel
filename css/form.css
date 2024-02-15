@@ -14,7 +14,7 @@
 
 .pop-out{animation: slide-left 1s linear 2s infinite forwards ;}
 
-.pop-in{animation: slide-right 1s linear 1s forwards ;}
+.pop-in{animation: slide-right 1s linear 15s forwards ;}
 
 .form h2{
     color: rgba(0, 0, 0, 0.878);
