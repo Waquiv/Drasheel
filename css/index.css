@@ -1,0 +1,22 @@
+@import url(general-sans.css);
+@import url(hero.css);
+@import url(about.css);
+@import url(whyus.css);
+@import url(timer.css);
+@import url(cta.css);
+@import url(form.css);
+:root{
+    --R-Yellow: #FADA5E; /* Royal yellow */
+    --S-Green: #9CAF88; /* Sage green */
+    --contrast: #808080 /*Grey*/
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+p{
+    font-family: GeneralSans-Variable;
+    font-weight: 500;
+}
