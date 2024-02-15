@@ -53,3 +53,30 @@
     aspect-ratio: 1/1;
 }
 
+@media only screen and (max-width: 400px){
+    .cta{
+        /* background-color: aqua; */
+        height: fit-content;
+        flex-wrap: wrap;
+
+    }
+
+    .ct{
+        /* margin-bottom: 50px; */
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+
+    .cta-left{
+        margin-bottom: 20px;
+    }
+
+    /* .cta-right{
+        padding: 20px;
+    } */
+
+    .cta-right img{
+        width: 95%;
+        /* aspect-ratio: 1/1; */
+    }
+}

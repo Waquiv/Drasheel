@@ -9,7 +9,7 @@
 
 .countdown{
     height: fit-content;
-    width: clamp(40% auto 80%);
+    width: clamp(40% 400px 80%);
     /* min-width: fit-content; */
     background-color: white;
     /* border: 3px  solid black ; */
@@ -44,7 +44,7 @@
     margin-bottom: 10px;
     font-size: 1rem;
     font-family: GeneralSans-Variable;
-    font-weight: 500;
+    font-weight: 400;
     /* word-spacing: 5%; */
     /* letter-spacing: 1px; */
     color: white;

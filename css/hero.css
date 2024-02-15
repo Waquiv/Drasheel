@@ -77,3 +77,16 @@ h3{
     scale: 1.2;
 }
 
+@media only screen and (max-width: 400px){
+    .hero{
+        /* background-color: aqua; */
+        height: fit-content;
+        flex-wrap: wrap;
+
+    }
+
+    .hc{
+        width: 100%;
+        /* background-color: aquamarine; */
+    }
+}

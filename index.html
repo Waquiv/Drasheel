@@ -9,10 +9,11 @@
 </head>
 <body>
 	<div class="form pop-in" id="form">
-		<button class="close">.<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"></path></svg></button>
+		<button class="close" onclick="let formElement = document.getElementById('form');
+    formElement.remove();">.<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"></path></svg></button>
 		<!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"></path></svg> -->
-		<h2>Login Form</h2>
-		<p>form text some</p>
+		<h2>Contact Us</h2>
+		<p>We will contact you back shortly!</p>
 		<form >
 			<input type="text" name="" id="i1" placeholder="Enter your Phone Number">
 			<label for="i1"></label>
@@ -22,7 +23,7 @@
 		</form>
 	</div>
     <section class="hero">
-        <div class="hero-text">
+        <div class="hero-text hc">
             <div class="hero-txt">
 							<h2>Drasheel Salva</h2>
 							<h2>Business Solutions</h2>
@@ -30,7 +31,7 @@
 							<h3>Get upto 50% increase in annual revenue.</h3>
 						</div>
         </div>
-        <div class="hero-image">
+        <div class="hero-image hc">
             <div class="hero-img-container">
                 <img src="images/blob.svg" alt="" class="blob1 blob">
                 <img src="images/blob2.svg" alt="" class="blob2 blob">
@@ -40,7 +41,7 @@
     </section>
 		<hr>
     <section class="about-me">
-			<div class="me-left">
+			<div class="me-left ab">
 				<div class="about-image">
 					<img src="images/about.webp" alt="about image">
 				</div>
@@ -52,7 +53,7 @@
 					</div>
 				</div>				
 			</div>
-			<div class="me-right">
+			<div class="me-right ab">
 				<div class="me-text">
 					<h2>About</h2>
 					<hr/>
@@ -83,18 +84,18 @@
 			<div class="us-lower">
 				<div class="f1">
 					<img src="images/icons/upload.png" alt="upload icon">
-					<h2>Eco Friendly</h2>
-					<p>dwdh dwbhdb wihdiw dhiwhd idhwib  ndiwhd  Lorem ipsum dolor sit amet consectetur</p>
+					<h2>Growth</h2>
+					<p>Take your business to new heights and out do your competition with our expertise.</p>
 				</div>
 				<div class="f1">
 					<img src="images/icons/eye.png" alt="upload icon">
-					<h2>Eco Friendly</h2>
-					<p>dwdh dwbhdb wihdiw dhiwhd idhwib  ndiwhd  Lorem ipsum dolor sit amet consectetur</p>
+					<h2>Insightful</h2>
+					<p>Get to analysis about flaws and exploits in your business model and supply chain.</p>
 				</div>
 				<div class="f1">
 					<img src="images/icons/puzzle-piece.png" alt="upload icon">
-					<h2>Eco Friendly</h2>
-					<p>dwdh dwbhdb wihdiw dhiwhd idhwib  ndiwhd  Lorem ipsum dolor sit amet consectetur</p>
+					<h2>Problem Solving</h2>
+					<p>Get cost effective solution for your business errors with in depth implementation reort.</p>
 				</div>
 			</div>
 		</section>
@@ -103,19 +104,20 @@
 			<div class="countdown">
 				<h2>Time is</h2>
 				<h2>Running Up</h2>
+				<!-- <p>Register now <br>for a free 5min consultancy session!!</p> -->
 				<h1><span id="hr">00</span>.<span id="min">09</span>.<span id="sec">30</span></h1>
 				<button class="register">Register Now at 30% off</button>
 			</div>
 		</section>
 		<hr>
 		<section class="cta">
-			<div class="cta-left">
+			<div class="cta-left ct">
 				<div class="cta-cta">
-					<h1>Up to 50% off on select superhero titles</h1>
+					<h1>Up to 50% off on select services for your first session.</h1>
 					<button class="cta-btn">Book Now</button>
 				</div>
 			</div>
-			<div class="cta-right">
+			<div class="cta-right ct">
 				<img src="images/CTA.jpg" alt="">
 			</div>
 		</section>
